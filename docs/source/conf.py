@@ -50,7 +50,7 @@ exclude_patterns = []
 #
 html_theme = 'bizstyle'
 html_theme_options = {
-    "rightsidebar": "true",
+    "rightsidebar": "false",
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
