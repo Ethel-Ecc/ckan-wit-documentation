@@ -22,12 +22,16 @@ Other Commands
 
 Getting Started
 ----------------
+**A Simple Flash WebApplication Using CKAN-WIT**
+
+Let's assume we want to build a flask web application for an organization that is responsible for handling population census. Typically such dataset can reside in a government
+owned data portal, which in itself need to know what's up with the population from other countries for proper demographic projections, geographic distributions.
+How and what is really needed to be aggregated across different countries is the challenge.
 Here is some text for the information on how to use the CKAN-WIT tool.
 
-         >>> print('hello')
-         >>> hello
 
 
 HowTo's
 -------
-The on how to do some basic functions will come in here.
+    >>> print('hello')
+    >>> hello
