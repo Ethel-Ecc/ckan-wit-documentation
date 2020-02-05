@@ -16,7 +16,7 @@ Simply create a directory where you want the project to reside::
 
    $ mkdir my_project
 
-Setting up a virtual Environment
+Setting up a Virtual Environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Set up your VENV where all the requirements.txt and environmental variables will reside.::
@@ -24,14 +24,14 @@ Set up your VENV where all the requirements.txt and environmental variables will
     $ pip install --user pipenv
 
 .. note::
-    Don't forget to activate the VirtualEnvironment
+    Don't forget to activate the virtual environment
 
 Installing the requirements.txt file from git
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  Once set, with your venv still activated, simply do::
 
-    $ pip install -r -e git:https://github.com/Ethel-Ecc/ckan-wit-documentation/blob/master/requirements.txt
+    $ pip install -r https://github.com/Ethel-Ecc/ckan-wit-documentation/trunck/requirements.txt
 
 Installing the CKAN-WIT
 ~~~~~~~~~~~~~~~~~~~~~~~~~
