@@ -35,5 +35,21 @@ Installing the requirements.txt file from git
 
 Installing the CKAN-WIT
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-The tools is installed from the python packaging index.
+The tools is installed from the python packaging index::
 
+    $ pip install -i https://test.pypi.org/simple/ ckan-wit
+ma
+This installs the latest version of ckan-wit into the virtual environment you have setup.
+After a successful install, simply import the package into your web application ::
+
+ >>> import ckan_wit.src.wit_main as pkg
+
+Start using it as::
+
+ >>> def index_page():
+    resp = pkg.ckan_wit_main()
+    return  resp
+
+ >>> index_page()
+
+See more from the getting started page ...

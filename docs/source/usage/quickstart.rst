@@ -11,13 +11,14 @@ Basic Concepts
 
 Getting Started
 ----------------
-**A Simple Flash WebApplication Using CKAN-WIT**
+**A Simple Flask WebApplication Using CKAN-WIT**
 
 [placeHolder]
 
 
-
 HowTo's
--------ssss
+--------
+    [placeHolder]
     >>> print('hello')
     >>> hello
+
