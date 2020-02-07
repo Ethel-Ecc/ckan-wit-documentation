@@ -47,8 +47,8 @@ After a successful install, simply import the package into your web application 
 Start using it as::
 
  >>> def index_page():
-    resp = pkg.ckan_wit_main()
-    return  resp
+       resp = pkg.ckan_wit_main()
+       return  resp
 
  >>> index_page()
 
