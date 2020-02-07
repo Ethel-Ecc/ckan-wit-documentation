@@ -38,7 +38,7 @@ Installing the CKAN-WIT
 The tools is installed from the python packaging index::
 
     $ pip install -i https://test.pypi.org/simple/ ckan-wit
-ma
+
 This installs the latest version of ckan-wit into the virtual environment you have setup.
 After a successful install, simply import the package into your web application ::
 
