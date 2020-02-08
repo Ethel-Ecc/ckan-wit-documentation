@@ -2,10 +2,10 @@ Contributing to CKAN-WIT
 =========================
 
 If you're reading this, you're probably interested in contributing to further development of the CKAN-WIT.
-Thank you very much! Open source projects live-and-die based on the support they receive from others, and the fact that you're even considering contributing to the Pipenv project is *very* generous of you.
+Thank you very much! Open source projects live-and-die based on the support they receive from others, and the fact that you're even considering contributing to the ckan-wit project is *very* generous of you.
 
 This document lays out guidelines and advice for contributing to this project. If you're thinking of contributing, please start by reading this document and getting a feel for how contributing to this project works. If you have any
-questions, feel free to reach out to `EO`_ the primary maintainers.
+questions, feel free to reach out to `EO`_ the primary maintainer.
 
 .. _EO: https://github.com/Ethel-Ecc
 
@@ -18,9 +18,7 @@ Be Cordial
     **Be cordial or be on your way**.
 
 The golden rule that governs all forms of contribution to CKAN-WIT, including bug reporting, feature request, faqs, etc. is to
-"be cordial or be on your way".
-
-**All contributions are welcome**, as long as everyone involved is treated with respect.
+"be cordial or be on your way". **All contributions are welcome**, as long as everyone involved is treated with respect.
 
 Get Early Feedback
 ~~~~~~~~~~~~~~~~~~
