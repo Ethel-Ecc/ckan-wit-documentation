@@ -61,7 +61,7 @@ Start using it as::
 
  >>> index_page()
 
-OR, use simple object and slice operations to return geographic-specific resources. To return resources that are found from open data portals in Africa, simply do::
+OR, use simple dictionary object and slice operations to return geographic-specific resources. To return resources that are found from open data portals in Africa, simply do::
 
  >>> def index_page():
         resp = wit.ckan_wit_main()

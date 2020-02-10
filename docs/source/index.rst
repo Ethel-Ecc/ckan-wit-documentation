@@ -5,8 +5,8 @@ CKAN-WIT
    :maxdepth:  2
 
    introduction
-   usage/quickstart
    usage/installation
+   usage/quickstart
    usage/configuration
    usage/troubleshooting
 
