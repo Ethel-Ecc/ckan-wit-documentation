@@ -17,7 +17,7 @@ Simply create a directory where you want the project to reside::
  $ mkdir my_project
 
 Setting up a Virtual Environment
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Set up your VENV where all the requirements.txt and environmental variables will reside.::
 
@@ -37,8 +37,8 @@ Or, directly from the git-repo::
 
  (my_virtualenv)$ pip install -r https://github.com/Ethel-Ecc/ckan-wit-documentation/trunck/requirements.txt
 
-Installing the CKAN-WIT
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Installing the   ''CKAN-WIT ''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The library is installed from the python packaging index::
 
     (my_virtualenv)$ pip install -i https://test.pypi.org/simple/ ckan-wit
@@ -49,6 +49,8 @@ You can also install a specific version of the tool by simply doing::
 
 This installs the latest version of ckan-wit into the virtual environment you have setup.
 
+FirstSteps
+~~~~~~~~~~~~
 After a successful install, simply import the package into your web application ::
 
  >>> import ckan_wit.src.wit_main as wit
