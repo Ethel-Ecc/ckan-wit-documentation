@@ -1,9 +1,7 @@
 Installation
 =============
-CKAN-WIT is a metadata library for opendata portal. It is recommended as it’s a higher-level tool that simplifies metadata aggregation for common use cases across
-CKAN-compatible opendata portals.
-This installation process applies to the proof-of-concept for which the library is being built and therefore sticks to some pythonic environment settings to show how it can be
-installed and used.
+``ckan-wit`` is a metadata library for opendata portal. It is recommended as it’s a higher-level tool that simplifies metadata aggregation for common use cases across CKAN-compatible opendata portals.
+This installation process applies to the proof-of-concept for which the library is being built and therefore sticks to some pythonic environment settings to show how it can be installed and used.
 
 .. note::
     Hey buddy, please, before you go any further, make ensure you have Python >= 3.6 and that it's available from your command line. You can check this by simply running::
@@ -16,7 +14,7 @@ Simply create a directory where you want the project to reside::
 
  $ mkdir my_project
 
-Setting up a Virtual Environment
+Setting up a ``virtual environment``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Set up your VENV where all the requirements.txt and environmental variables will reside.::
@@ -26,7 +24,7 @@ Set up your VENV where all the requirements.txt and environmental variables will
 .. note::
     Don't forget to activate the virtual environment
 
-Installing the requirements/external dependencies wit ``pip``
+Installing the requirements/external dependencies with ``pip``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Once set, with your venv still activated, simply do::
@@ -37,8 +35,8 @@ Or, directly from the git-repo::
 
  (my_virtualenv)$ pip install -r https://github.com/Ethel-Ecc/ckan-wit-documentation/trunck/requirements.txt
 
-Installing the   ''CKAN-WIT ''
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Installing ``ckan-wit`` with ``pip``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The library is installed from the python packaging index::
 
     (my_virtualenv)$ pip install -i https://test.pypi.org/simple/ ckan-wit
