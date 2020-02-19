@@ -30,6 +30,7 @@ Installing the requirements/external dependencies with ``pip``
 Once set, with your venv still activated, simply do::
 
  (my_virtualenv)$ pip install aiohttp[speedups]
+ (my_virtualenv)$ pip install requests
 
 Or, directly from the git-repo::
 
