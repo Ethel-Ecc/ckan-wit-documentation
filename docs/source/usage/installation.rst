@@ -32,19 +32,12 @@ Once set, with your venv still activated, simply do::
  (my_virtualenv)$ pip install aiohttp[speedups]
  (my_virtualenv)$ pip install requests
 
-Or, directly from the git-repo::
-
- (my_virtualenv)$ pip install -r https://github.com/Ethel-Ecc/ckan-wit-documentation/trunck/requirements.txt
 
 Installing ``ckan-wit`` with ``pip``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The library is installed from the python packaging index::
 
-    (my_virtualenv)$ pip install -i https://test.pypi.org/simple/ ckan-wit
-
-You can also install a specific version of the tool by simply doing::
-
-    (my_virtualenv)$ pip install -i https://test.pypi.org/simple/ ckan-wit==0.1.0      # where 0.1.0 is the version number.
+    (my_virtualenv)$ pip install ckan-wit
 
 This installs the latest version of ckan-wit into the virtual environment you have setup.
 
@@ -95,4 +88,4 @@ To return resources that are found from open data portals in Asia, do::
 
  >>> index_page()
 
-See more from the getting started page ...
+See more from the :ref:`Quickstart`page ...
