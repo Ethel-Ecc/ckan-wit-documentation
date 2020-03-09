@@ -19,12 +19,15 @@ Getting Started
 ----------------
 **A Simple Flask WebApplication Using CKAN-WIT**
 
-[placeHolder]
+    [placeHolder]::
+
+    >>> #Content will be added soon.
 
 
 HowTo's
 --------
-    [placeHolder]
-    >>> print('hello')
-    >>> hello
+    [placeHolder]::
+
+    >>> import ckan_wit.src.wit_main as m
+    >>> wit.ckan_wit_main()["wit_resources"]["AFRICA"]["total_metadata"]
 
